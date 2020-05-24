@@ -166,7 +166,7 @@ main.container {
     justify-content: center;
 }
 main.container section.content h1 {
-	color: #21211f;
+	color: #F0FFF0;
 	font-size: 6.65rem;
 	padding: 0;
 	letter-spacing: -0.1rem;
@@ -174,7 +174,7 @@ main.container section.content h1 {
 	font-style: normal;
 }
 main.container section.content p {
-	color: #21211f;
+	color: #F0FFF0;
 	font-size: 0.9rem;
 	line-height: 0;
 	letter-spacing: 0.135rem;
@@ -200,8 +200,21 @@ main.container section.content a {
 	transition: all 0.5s ease;
 }
 main.container section.content a:hover {
-	background: #21211f;
+	background: #F0FFF0;
 	transition: all 0.5s ease;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("download.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /***** Footer *****/
@@ -215,9 +228,13 @@ footer {
 }
 footer a {
 	padding: 0 0.5rem;
-	color: #21211f;
+	color: #F0FFF0;
 	font-size: 20px;
 	transition: all 0.5s ease;
+}
+footer a.email:hover {
+  color: #1a85bc;
+  transition: all 0.5s ease;
 }
 footer a.tw:hover {
 	color: #1da1f2;
