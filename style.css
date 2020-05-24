@@ -232,8 +232,12 @@ footer a {
 	font-size: 20px;
 	transition: all 0.5s ease;
 }
-footer a.email:hover {
-  color: #1a85bc;
+footer a.em:hover {
+  color: #318CE7;
+  transition: all 0.5s ease;
+}
+footer a.wp:hover {
+  color: #25D366;
   transition: all 0.5s ease;
 }
 footer a.tw:hover {
