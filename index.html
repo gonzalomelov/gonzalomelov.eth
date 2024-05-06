@@ -1,60 +1,77 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
+<html lang="en">
+
 <head>
-  <title>Gonzalo Melo - Engineering & Product</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="description" content="Gonzalo Melo is a delivery manager with strong technical abilities. A software engineer, innovation manager, entrepreneur, football and outer space lover.">
-  <meta name="keywords" content="Gonzalo Melo, delivery, manager, software, engineer, innovation, technology, management, PMI, PMP, Montevideo, Uruguay">
-  <meta name="author" content="Gonzalo Melo">
-  <meta name="robots" content="index, follow">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="apple-touch-icon" href="https://gonzalomelov.com/apple-touch-icon.png">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="./style.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Page Information -->
+  <meta charset="utf-8">
+  <title>gonzalomelov - Web3 Specialist</title>
+  <meta name="description" content="Showcasing my projects and experience in Web3, blockchain, and crypto.">
+  <meta name="author" content="gonzalomelov">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton-auto.css">
+  <link rel="stylesheet" href="css/brands.css">
+  <link rel="stylesheet" href="css/brands-extended.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/littlelink.png">
+
 </head>
+
 <body>
 
-<main class="container bg">
-  <section class="content">
-    <h1>Gonzalo Melo</h1>
-    <p id="desc"></p>
-  </section>
-</main>
+  <!-- Primary Page Layout -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
 
-<footer>
-  <a class="em" href="mailto:gonzalomelov@gmail.com" title="Email Gonzalo Melo" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-  <a class="t" href="https://t.me/gonzalomelov" title="Telegram Gonzalo Melo" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-  <a class="tw" href="https://twitter.com/gonzalomelov" title="Gonzalo Melo on X" target="_blank"><i class="fab fa-x-twitter"></i></a>
-  <a class="me" href="https://warpcast.com/gonzalomelov.eth" title="Warpcast Gonzalo Melo" target="_blank"><i class="fa-solid fa-w"></i></a>
-  <a class="li" href="https://www.linkedin.com/in/gonzalomelov" title="Gonzalo Melo on LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-</footer>
+        <!-- Your Image Here -->
+        <img src="images/pfp.jpeg" class="avatar" alt="gonzalomelov Photo">
 
-<script>
-var showText = function (target, message, index, interval) {
-  if (index < message.length) {
-    $(target).append(message[index++]);
-    setTimeout(function () { showText(target, message, index, interval); }, interval);
-  }
-}
-$(function () {
-  showText("#desc", "Engineering & Product", 0, 100);
-});
-</script>
+        <!-- Title -->
+        <h1 role="heading">gonzalomelov</h1>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LZVHY103NQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <!-- Short Bio -->
+        <p>Currently engaged with Web3, blockchain, and crypto projects. Keen on applying blockchain technology to solve real-world problems.</p>
 
-  gtag('config', 'G-LZVHY103NQ');
-</script>
+        <!-- GitHub -->
+        <a class="button button-github" href="https://github.com/gonzalomelov" target="_blank" rel="noopener" role="button">
+          <img class="icon" aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">Explore My Projects
+        </a><br>
 
-</body></html>
+        <!-- LinkedIn -->
+        <a class="button button-linked" href="https://www.linkedin.com/in/gonzalomelov" target="_blank" rel="noopener" role="button">
+          <img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">View My Professional Profile
+        </a><br>
+
+        <!-- X -->
+        <a class="button button-x" href="https://x.com/gonzalomelov" target="_blank" rel="noopener" role="button">
+          <img class="icon" aria-hidden="true" src="images/icons/x.svg" alt="X Logo">Follow My Updates
+        </a><br>
+
+        <!-- Telegram -->
+        <a class="button button-telegram" href="https://t.me/gonzalomelov" target="_blank" rel="noopener" role="button">
+          <img class="icon" aria-hidden="true" src="images/icons/telegram.svg" alt="Telegram Logo">
+          Chat Me on Telegram
+        </a><br>
+
+        <!-- Email -->
+        <a class="button button-default" href="mailto:gonzalomelov@gmail.com" target="_blank" rel="noopener" role="button">
+          <img class="icon" aria-hidden="true" src="images/icons/generic-email.svg" alt="Email Icon">Email Me
+        </a><br>
+
+        <!-- Footer -->
+        <!-- <p><a href="privacy.html">Privacy Policy</a> | Build your own by forking <a href="https://github.com/sethcottle/littlelink" target="_blank" rel="noopener">LittleLink</a>.</p> -->
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
